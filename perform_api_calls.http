@@ -1,0 +1,22 @@
+
+http://localhost:4001/subscribers
+
+
+
+###
+
+
+
+POST http://localhost:4001/subscribers
+Content-Type:application/json
+
+{
+    "name" : "Ajeet Jha",
+    "subscribedToChannel" : "Web Dev 2334567"
+}
+
+
+####
+
+POST http://localhost:4001/user/create
+Content-Type: application/json
